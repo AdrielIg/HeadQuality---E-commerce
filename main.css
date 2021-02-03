@@ -23,6 +23,10 @@ nav {
   border-bottom: 2px solid black;
 }
 
+.nav-bar li:hover {
+  transform: scale(1.2);
+}
+
 .burger {
   display: none;
 }
