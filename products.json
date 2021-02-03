@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Headset - 1",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Headset - 2",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Headset - 3",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Headset - 4",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Headset - 5",
+        "price": 19.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Headset - 6",
+        "price": 32.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Headset - 7",
+        "price": 45.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Headset - 8",
+        "price": 39.99,
+        "image": { "fields": { "file": { "url": "/img/Products/producto-8.jpg" } } }
+      }
+    }
+  ]
+}

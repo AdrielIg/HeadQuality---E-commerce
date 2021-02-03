@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="products.css">
+    <title>HeadQuality | Best Quality</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>-HeadQuality-</h1>
+        </div>
+        <ul class="nav-bar">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+            
+        </ul>
+        <div class="nav-icons">
+            <i class='bx bxs-cart cart-btn'></i>
+            <i class='bx bxs-user user-btn' ></i>
+                
+        </div>
+        <div class="burger">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </div>
+    </nav>
+    
+    <section class="product-gallery">
+        <div class="filters">
+            <div class="color-filter">
+                <label for="headphone">Color:</label>
+                <select id="headphone-color">
+                    <option value="nothing-color">---</option>
+                    <option value="white">White</option>
+                    <option value="blue">Blue</option>
+                    <option value="black">Black</option>
+                    <option value="rose-gold">Rose Gold</option>
+                </select>
+            </div>
+            <div class="price-filter">
+                <label for="headphone">Color:</label>
+                <select id="headphone-price">
+                    <option value="nothing-price">---</option>
+                    <option value="mayor">Mayor a menor</option>
+                    <option value="menor">Menor a Mayor</option>
+                </select>
+            </div>
+            <button class="filter">Filter</button>
+        </div>
+        <!-- Product center - all products -->
+        <div class="product-center container">
+            
+            
+        </div>
+        <!-- End of Product center - all products -->
+    </section>
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class='bx bx-window-close'></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <!-- <div class="cart-item">
+                    // Here goes de cart item added with "addCartItem()"
+                </div> -->
+                
+                <!-- end of cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total: $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of cart -->
+
+    <div class="mobile-nav">
+        <div class="mobile-icons">
+            <i class='bx bxs-cart cart-btn cart-btn-mobile'></i>
+            <i class='bx bxs-user user-btn user-btn-mobile' ></i>
+            
+        </div>
+        <ul class="mobile-links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+            
+    </div>
+    <script src="/products.js"></script>
+</body>
+</html>
